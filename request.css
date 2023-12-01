@@ -32,9 +32,16 @@ header {
 }
 
 .logo {
-  font-size: 30px;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 60px;
   font-weight: 700;
-  color: white;
+  background: -webkit-linear-gradient(
+    125deg,
+    #000000ab 31%,
+    rgba(253, 253, 253, 0.842) 69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .navelist {
   display: flex;
