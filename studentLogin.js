@@ -83,7 +83,7 @@ document
         // Signed in
         const user = userCredential.user;
         alert("logged in!");
-        window.location.href = "LandingPage.html";
+        window.location.href = "landingPage.html";
         // ...
       })
       .catch((error) => {
